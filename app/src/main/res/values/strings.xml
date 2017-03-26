@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BeaconApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_beacon_details">beacon_details</string>
+    <string name="checked_in_title">People who checked in</string>
+    <string name="lorem_ipsum_para">
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia
+    </string>
+    <string name="title_activity_bookmarks">bookmarks</string>
+</resources>

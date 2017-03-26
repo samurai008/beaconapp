@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:text="Welkom!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimary"
+        android:paddingBottom="5dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id mi vulputate, consectetur diam vel, cursus lacus. Sed ut ex ut odio interdum egestas. Aenean vel metus in sapien rutrum lacinia."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcometexttv"
+        android:textColor="@color/colorAccent"
+        android:paddingBottom="30dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/emailet"
+        android:fadingEdge="horizontal|vertical"
+        android:hint="name@email.com" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passwordet"
+        android:hint="password" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Forgot your password?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/forgotpasswordtv"
+            android:layout_weight="0.22"
+            android:textColor="@android:color/holo_blue_bright" />
+
+        <Button
+            android:text="Login"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginbtn"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_bright"
+            android:textColor="@android:color/background_light"
+            android:layout_width="5dp"
+            android:onClick="doLogin"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/status"
+        android:layout_weight="0.22" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Sign Out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_out_button" />
+
+    <Button
+        android:text="Disconnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/disconnect_button" />
+
+</LinearLayout>
